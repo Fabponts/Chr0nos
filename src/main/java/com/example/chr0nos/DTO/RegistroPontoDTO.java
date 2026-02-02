@@ -1,9 +1,6 @@
 package com.example.chr0nos.DTO;
 
-import com.example.chr0nos.model.Funcionario;
 import com.example.chr0nos.model.TipoRegistro;
-
-import java.time.LocalDate;
 
 public class RegistroPontoDTO {
     //Dtos da classe
