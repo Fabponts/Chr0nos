@@ -28,7 +28,7 @@ public class Funcionario {
         return firstName;
     }
 
-    public void setName(String name) {
+    public void setFirstName(String name) {
         this.firstName = name;
     }
 
