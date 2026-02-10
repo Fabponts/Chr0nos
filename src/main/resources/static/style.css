@@ -37,15 +37,21 @@ h1 {
   padding-left: 1rem;
 }
 
-.icon-header {
-  color: white;
+#logout-button {
   display: flex;
   align-items: center;
   padding-right: 2vw;
   cursor:pointer;
   transition: color 0.25s ease;
+  background-color: #FFF;
+  color:black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Electrolize", sans-serif;
+
 }
-.icon-header:hover{
+#logout-button:hover{
     color:#6F6F70;
 }
 
@@ -60,8 +66,7 @@ main {
 
 }
 
-.main-box-clock,
-.main-box-record {
+.main-box-clock{
   background-color: white;
   padding: 2.5rem;
   border-radius: 12px;
@@ -74,6 +79,16 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.main-box-record {
+background-color: white;
+padding: 2.5rem;
+border-radius: 12px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+width: 100%;
+max-width: 50rem;
+min-height: 12rem;
+
 }
 .main-box-clock{
     gap:1rem;
@@ -89,7 +104,7 @@ main {
     font-size:1.5rem;
     font-family: "Montserrat", sans-serif;
 }
-button {
+#punch-button {
   display:flex;
   background-color: #36BE7C;
   color: white;
@@ -100,9 +115,8 @@ button {
   font-size: 1.3rem;
   transition: color 0.5s ease;
 }
-button:hover{
+#punch-button:hover{
    background-color:#2E5341;
-   transition: background-color 0.25s ease;
 }
 
 
@@ -119,7 +133,6 @@ footer {
 }
 .footer-link-icon:hover {
   color: red;
-  transition: color 0.25s ease;
 }
 
 .footer-link {
