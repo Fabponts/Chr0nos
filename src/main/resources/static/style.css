@@ -24,8 +24,6 @@ header {
   padding-left: 5vw;
   padding-right: 5vw;
   flex-shrink: 0;
-
-
 }
 
 h1 {
@@ -80,16 +78,7 @@ main {
   align-items: center;
   text-align: center;
 }
-.main-box-record {
-background-color: white;
-padding: 2.5rem;
-border-radius: 12px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-width: 100%;
-max-width: 50rem;
-min-height: 12rem;
 
-}
 .main-box-clock{
     gap:1rem;
 }
@@ -110,7 +99,7 @@ min-height: 12rem;
   color: white;
   padding: 10px 20px;
   border: none;
-  border-radius: 8px;
+  border-radius: 12px;
   cursor: pointer;
   font-size: 1.3rem;
   transition: color 0.5s ease;
@@ -119,6 +108,42 @@ min-height: 12rem;
    background-color:#2E5341;
 }
 
+.main-box-record {
+display:flex;
+flex-direction:column;
+background-color: white;
+padding: 2.5rem;
+border-radius: 12px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+width: 100%;
+max-width: 50rem;
+min-height: 12rem;
+
+}
+.title-record{
+    font-family: "Montserrat", sans-serif;
+    font-size:1.3rem;
+}
+.record-table{
+   text-align: center;
+   font-family: "Montserrat", sans-serif;
+   justify-content:space-between;
+   font-size:1.1rem;
+}
+
+.record-table th {
+  font-weight: 600;
+  padding-bottom: 0.8rem;
+    border-bottom: 1px solid #DADADA;
+}
+
+.record-table td {
+  padding: 0.4rem 0;
+    border-bottom: 1px solid #DADADA;
+}
+.record-table tr{
+    font-size:1rem;
+}
 
 footer {
   display: flex;

@@ -40,21 +40,50 @@
                     <span id ="ano"></span>
                 </div>
 
-
                 <div class = "button">
                     <button id="punch-button">Bater Ponto</button>
                 </div>
             </div>
             <script src="script.js"></script>
 
+
+
             <div class="main-box-record">
                 <div>
                     <h3 class="title-record">Historico de Jornada</h3>
                 </div>
-                <div class ="subtitle">
-                    <h4>Data</h4>
-                    <h4>Horario</h4>
-                </div>
+                <table class="record-table">
+                    <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Horário</th>
+                        <th>Tipo</th>
+                    </tr>
+                    </thead>
+                    <tbody id="registro-ponto">
+                    <tr>
+                        <td>10/02/2026</td>
+                        <td>08:00</td>
+                        <td>Entrada</td>
+                    </tr>
+
+                    <tr>
+                        <td>10/02/2026</td>
+                        <td>12:00</td>
+                        <td>Saída Almoço</td>
+                    </tr>
+                    <tr>
+                        <td>10/02/2026</td>
+                        <td>13:00</td>
+                        <td>Volta Almoço</td>
+                    </tr>
+                    <tr>
+                        <td>10/02/2026</td>
+                        <td>17:00</td>
+                        <td>Saída</td>
+                    </tr>
+                    </tbody>
+                </table>
 
 
             </div>
