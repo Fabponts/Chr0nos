@@ -75,6 +75,12 @@ main {
   align-items: center;
   text-align: center;
 }
+.relogio{
+    display:flex;
+    font-family: "Electrolize", sans-serif;
+    gap:1rem;
+    font-size: 2.5rem;
+}
 
 footer {
   display: flex;
