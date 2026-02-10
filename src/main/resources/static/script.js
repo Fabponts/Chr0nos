@@ -19,3 +19,40 @@ const relogio = setInterval(function time() {
     segundos.textContent = s;
 
 })
+
+const semana = document.getElementById('dia-semana');
+const data = document.getElementById('data');
+const mes = document.getElementById('mes');
+const ano = document.getElementById('ano')
+
+const data_completa = new Date();
+
+const diasSemana = [
+  'Domingo',
+  'Segunda-Feira',
+  'Terça-Feira',
+  'Quarta-Feira',
+  'Quinta-Feira',
+  'Sexta-Feira',
+  'Sábado'
+];
+
+const meses = [
+  'Janeiro',
+  'Fevereiro',
+  'Março',
+  'Abril',
+  'Maio',
+  'Junho',
+  'Julho',
+  'Agosto',
+  'Setembro',
+  'Outubro',
+  'Novembro',
+  'Dezembro'
+];
+
+semana.innerText = diasSemana[data_completa.getDay()];
+data.innerText = data_completa.getDate();
+mes.innerText = meses[data_completa.getMonth()];
+ano.innerText = data_completa.getFullYear();
