@@ -172,3 +172,60 @@ footer {
   color: red;
 
 }
+
+/* Login page css */
+
+.login-box{
+display:flex;
+flex-direction:column;
+background-color: #1F3453;
+padding: 2.5rem;
+border-radius: 1rem;
+box-shadow: 0 9px 10px rgba(1, 1, 1, 1);
+width: 100%;
+max-width: 20rem;
+min-height: 20rem;
+}
+
+.login-box-content-title{
+     color: white;
+     font-size: 2rem;
+     font-family: "Electrolize", sans-serif;
+     letter-spacing: 2px;
+     margin: 0;
+}
+#login-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top:2rem;
+}
+#login-form input{
+    padding: 0.8rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    outline: none;
+}
+
+#login-form input:focus {
+     box-shadow: 0 0 0 2px #4da6ff;
+ }
+
+ /* BOTÃO */
+ .login-form-button {
+     padding: 12px;
+     border-radius: 8px;
+     border: none;
+     background-color: #4da6ff;
+     color: white;
+     font-weight: bold;
+     cursor: pointer;
+     transition: 0.3s ease;
+ }
+
+ .login-form-button:hover {
+     background-color: #1f8cff;
+     transform: translateY(-2px);
+ }
