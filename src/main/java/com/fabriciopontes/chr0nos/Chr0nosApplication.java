@@ -1,4 +1,4 @@
-package com.example.chr0nos;
+package com.fabriciopontes.chr0nos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

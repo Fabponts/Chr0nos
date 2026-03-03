@@ -1,4 +1,4 @@
-package com.example.chr0nos.DTO;
+package com.fabriciopontes.chr0nos.DTO;
 
 public class FuncionarioDTO {
     private String firstName;

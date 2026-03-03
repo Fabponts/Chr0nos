@@ -1,8 +1,8 @@
-package com.example.chr0nos.service;
+package com.fabriciopontes.chr0nos.service;
 
-import com.example.chr0nos.DTO.FuncionarioDTO;
-import com.example.chr0nos.model.Funcionario;
-import com.example.chr0nos.repository.FuncionarioRepository;
+import com.fabriciopontes.chr0nos.DTO.FuncionarioDTO;
+import com.fabriciopontes.chr0nos.model.Funcionario;
+import com.fabriciopontes.chr0nos.repository.FuncionarioRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

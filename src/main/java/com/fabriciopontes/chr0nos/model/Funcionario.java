@@ -1,4 +1,4 @@
-package com.example.chr0nos.model;
+package com.fabriciopontes.chr0nos.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,11 +1,9 @@
-package com.example.chr0nos.service;
+package com.fabriciopontes.chr0nos.service;
 
 
-import com.example.chr0nos.repository.FuncionarioRepository;
-import com.example.chr0nos.repository.RegistroPontoRepository;
+import com.fabriciopontes.chr0nos.repository.FuncionarioRepository;
+import com.fabriciopontes.chr0nos.repository.RegistroPontoRepository;
 import org.springframework.stereotype.Service;
-
-import java.time.LocalDateTime;
 
 @Service
 public class RegistroPontoService {
