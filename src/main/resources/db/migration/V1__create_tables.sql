@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS funcionario(
+id BIGINT AUTO_INCREMENT PRIMARY KEY,
+full_name VARCHAR(255) NOT NULL,
+email VARCHAR(255) NOT NULL UNIQUE,
+password_hash(255) NOT NULL
+)
+
+CREATE TABLE IF NOT EXISTS registro_ponto(
+id BIGINT AUTO_INCREMENT PRIMARY KEY,
+funcionario_id BIGINT NOT NULL,
+tipo_registro VARCHAR(30) NOT NULL,
+momento_registro DATE NOT NULL,
+CONSTRAINT fk_funcionario FOREIGN KEY (funcionario_id) REFERENCES funcionario(id)
+)
